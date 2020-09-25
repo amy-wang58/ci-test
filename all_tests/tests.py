@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append('ci-test/all_funcs')
+sys.path.append('ci-test/all_funcs/')
 from all_funcs.func import add, subtract, multiply
 
 
