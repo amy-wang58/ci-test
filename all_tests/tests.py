@@ -1,5 +1,7 @@
 import unittest
-from func import add, subtract, multiply
+import sys
+sys.path.append('ci-test/all_funcs')
+from all_funcs.func import add, subtract, multiply
 
 
 class Tests(unittest.TestCase):
