@@ -1,5 +1,5 @@
 import unittest
-from funcs.func import add
+from func import add
 
 
 class Tests(unittest.TestCase):
